@@ -1,6 +1,9 @@
-let velocidad=Number(prompt('Digite la velocidad del automovil en km/h: '));
+let precio = Number (prompt("Digite el precio del producto :"));
 
-let resultado=velocidad*(1000)*(1/3600);
+let descuento = precio*0.10;
 
-alert('La velocidad es' + resultado + 'm/s');
+let precioFinal = precio - descuento ;
+
+alert ("El descuento es de " + descuento);
+alert ("El precio final es de "+ precioFinal);
 
