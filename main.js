@@ -1,9 +1,6 @@
-let precio = Number (prompt("Digite el precio del producto :"));
+let gradoCentigrado = Number (prompt("Ingrese los grados centigrados "));
 
-let descuento = precio*0.10;
+let gradoFahrenheit = (gradoCentigrado* (9/5))+32;
 
-let precioFinal = precio - descuento ;
-
-alert ("El descuento es de " + descuento);
-alert ("El precio final es de "+ precioFinal);
+alert ("Los grados  Fahrenheit son : " + gradoFahrenheit);
 
