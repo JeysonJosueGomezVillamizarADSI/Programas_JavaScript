@@ -1,12 +1,10 @@
+const pi = 3.1415;
 
+let altura = Number(prompt("Digite la altura del elipsoide : "));
+let largo = Number(prompt("Digite el largo del elipsoide : "));
+let ancho = Number(prompt("Digite el ancho del elipsoide : "));
 
-let a=Number(prompt("ingresa el valor de a"));
-let b =Number(prompt("ingresa el valor de b"));
-let c=Number(prompt("ingresa el valor de c"));
-const x = 23;
+let volumen = (4/3)*pi*altura*largo*ancho;
 
-let formula = a* x**2+b*x+c;
-let formulares=math.sqrt(formula)
-
-alert("La raiz de la ecuacion es " + formulares)
+alert("El volumen del elipsoide es " + volumen);
 
