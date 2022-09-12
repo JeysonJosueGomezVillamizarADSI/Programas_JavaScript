@@ -1,9 +1,12 @@
-const pi = 3.14;
-let radio = Number(prompt("Digite el radio del cilindro "));
-let altura = Number(prompt("Digite la altura del cilindro "));
 
-let area = (2 * (pi * rad**2)) + ((2 * pi * rad) * alt);
-let volumen = (pi * rad**2) * alt;
 
-alert("El area del cilindro es " + area);
-alert("El volumen del cilindro es " + volumen);
+let a=Number(prompt("ingresa el valor de a"));
+let b =Number(prompt("ingresa el valor de b"));
+let c=Number(prompt("ingresa el valor de c"));
+const x = 23;
+
+let formula = a* x**2+b*x+c;
+let formulares=math.sqrt(formula)
+
+alert("La raiz de la ecuacion es " + formulares)
+
