@@ -1,10 +1,12 @@
-const pi = 3.1415;
+const  precminuto= 355;
 
-let altura = Number(prompt("Digite la altura del elipsoide : "));
-let largo = Number(prompt("Digite el largo del elipsoide : "));
-let ancho = Number(prompt("Digite el ancho del elipsoide : "));
+let minutos = Number (prompt("Ingrese la cantidad de minutos gastados en la llamada : "));
 
-let volumen = (4/3)*pi*altura*largo*ancho;
+let pagosinva = minutos*precminuto;
 
-alert("El volumen del elipsoide es " + volumen);
+let iva = (precminuto*0.20);
+
+let pagototal = pagosinva + iva ;
+
+alert("El pago de la llamada telefonica es de " + pagototal + " Iva incluido");
 
