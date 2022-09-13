@@ -1,9 +1,16 @@
-const  precioXhora = 15300;
 
-let nombre = prompt("Digite el nombre del empleado : ");
-let horas = Number (prompt("Digite las horas trabajadas  : "));
+let examen1 = Number(prompt('Digite la calificacion  del primer examen: '));
+let examen2 = Number(prompt('Digite la calificacion  del segundo  examen: '));
+let examen3 = Number(prompt('Digite la calificacion  del tercer examen: '));
+let examen4 = Number(prompt('Digite la calificacion  del cuarto examen: '));
 
-let pagoTotal= horas*precioXhora;
+if (examen1 <= 5) and(examen2 <= 5); {
+    pro = (exa1 + exa2 + exa3 + exa4) / 4
+}
 
-alert ("El total a pagar por el empleado " + nombre + " es de " + pagoTotal);
+if (examen3 <= 5) and(examen4 <= 5); {
+    promedio = (examen1 + examen2 + examen3 + examen4) / 4
+    alert('El promedio de las calificaciones obtenidas es:' + pro)
+}
+
 
