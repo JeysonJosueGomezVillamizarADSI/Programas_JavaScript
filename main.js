@@ -1,12 +1,9 @@
-let precioProducto = Number (prompt("Digite el precio del prodcuto : "));
-let Iva = Number (prompt("Digite el Iva sin % : "));
+const  precioXhora = 15300;
 
-let TotIva = Iva/100;
+let nombre = prompt("Digite el nombre del empleado : ");
+let horas = Number (prompt("Digite las horas trabajadas  : "));
 
-let IvaProducto = precioProducto* TotIva;
+let pagoTotal= horas*precioXhora;
 
-let pagoTotal = precioProducto + IvaProducto;
-
-alert ("El iva del producto es de : " + IvaProducto);
-alert ("El total a pagar del producto es de : " + pagoTotal);
+alert ("El total a pagar por el empleado " + nombre + " es de " + pagoTotal);
 
